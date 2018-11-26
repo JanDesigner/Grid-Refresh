@@ -1,0 +1,31 @@
+Making Boxes
+***********
+display:grid;
+grid-template-columns: 100px auto 100px;  // means 3 column box
+grid-template-rows: 100px 100px;          // first row is 100px then the second is 100px note ROW not boxes 
+grid-gap:5px;  gap between grid 
+
+ ____  ____  ____
+|    ||    ||    |
+|____||____||____|
+ ____  ____  ____
+|    ||    ||    |
+|____||____||____|
+
+
+***********
+display:grid;
+grid-template-columns: 100px auto ;  
+grid-template-rows: 100px 100px 100px;         
+grid-gap:5px;  gap between grid 
+
+ ____  __________
+|    ||          |
+|____||__________|
+ ____  __________
+|    ||          |
+|____||__________|
+ ____  __________
+|    ||          |
+|____||__________|
+
