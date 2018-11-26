@@ -29,3 +29,13 @@ grid-gap:5px;  gap between grid
 |    ||          |
 |____||__________|
 
+*************
+
+grid-template-columns: 1fr 1fr 1fr; // the same length for each  
+grid-template-columns: repeat( 3 , 1fr ); // the same length for each  
+grid-template-rows: repeat( 3 , 100px );  // same 
+
+grid-template: repeat(2,100px) / 1fr 2fr 1fr;
+grid-template: repeat(2,100px) / repeat(3 , 1fr ); // valid;
+
+
