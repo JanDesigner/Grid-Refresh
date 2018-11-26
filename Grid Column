@@ -25,3 +25,6 @@
   
   **** grid-column: start / end  
   **** grid-row: start / end
+  **** -1 at the end of the row 
+  
+  its hard to master but it payed of well
