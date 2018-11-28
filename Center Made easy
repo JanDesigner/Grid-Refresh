@@ -21,3 +21,21 @@
            
                  
                 
+**************************************
+summary
+**************************************
+justify-content: center; //parent
+align-content:center; //parent
+
+
+justify-items:center; //squech //parent
+align-items:center;//squesh //parent
+
+
+justify-self:center//direct
+align-self:end//direct
+
+******
+
+grid-template-columns: repeat(auto-fil,minmax(100px,1fr));
+grid-template-rows:100px 100px;
